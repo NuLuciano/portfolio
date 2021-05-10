@@ -7,7 +7,7 @@ const Header = () => {
     }
     return (
         <div>
-            <i className="bi bi-list mobile-nav-toggle d-xl-none" onClick={handleClick}></i>
+            <i className="bi bi-list mobile-nav-toggle d-lg-none" onClick={handleClick}></i>
             {nav ?
             <header id="header2">
             <div className="d-flex flex-column">
