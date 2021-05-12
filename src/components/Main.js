@@ -1,16 +1,20 @@
 import React from 'react'
 import About from './About'
 import Facts from './Facts'
-import Skills from './Skills'
-import Resume from './Resume'
+import Portfolio from './Portfolio'
+import Services from './Services'
+import Contact from './Contact'
+import BackToTopButton from './BackToTop'
 
 const Main = () => {
     return (
         <main id="main">
             <About/>
             <Facts/>
-            <Skills/>
-            <Resume/>
+            <Portfolio/>
+            <Services/>
+            <Contact/>
+            <BackToTopButton/>
         </main>
     )
 }

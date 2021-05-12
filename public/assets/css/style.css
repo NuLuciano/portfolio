@@ -594,6 +594,11 @@ section {
   margin-right: 0;
 }
 
+.portImg:hover {
+  opacity: 50%;
+  transition: all ease-in-out 0.5s;
+}
+
 .portfolio .portfolio-wrap {
   transition: 0.3s;
   position: relative;
@@ -602,7 +607,7 @@ section {
 }
 
 .portfolio .portfolio-wrap::before {
-  content: "";
+  /* content: ""; */
   background: rgba(255, 255, 255, 0.5);
   position: absolute;
   left: 0;
@@ -632,7 +637,7 @@ section {
   text-align: center;
   background: rgba(20, 157, 221, 0.75);
   transition: 0.3s;
-  width: 50%;
+  width: 100%;
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
@@ -726,6 +731,8 @@ section {
 --------------------------------------------------------------*/
 .services .icon-box {
   margin-bottom: 20px;
+  display: flex;
+  align-items: center;
 }
 
 .services .icon {
@@ -971,11 +978,11 @@ section {
 }
 
 .contact .php-email-form .sent-message {
-  display: none;
   color: #fff;
   background: #18d26e;
   text-align: center;
   padding: 15px;
+  margin-top: 10px;
   font-weight: 600;
 }
 

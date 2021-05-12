@@ -2,45 +2,49 @@ import React from 'react'
 
 const About = () => {
     return (
-        <section id="about" class="about">
-            <div class="container">
+        <section id="about" className="about">
+            <div className="container">
 
-                <div class="section-title">
-                <h2>About</h2>
-                <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                <div className="section-title">
+                <h2>About me</h2>
+                <p>My name is Luciano Nuñez, and I decided to change my occupation after five years of working in private security. Now, I am looking for my first full-time job as a full stack web developer. I am always open to challenges and constructive feedback. I am open-minded and learn new things quickly.</p>
                 </div>
 
-                <div class="row">
-                    <div class="col-lg-4" data-aos="fade-right">
-                        <img src="assets/img/profile-img.jpg" class="img-fluid" alt=""/>
+                <div className="row">
+                    <div className="col-lg-4" data-aos="fade-right">
+                        <img src="assets/img/profile-img.jpg" className="img-fluid" alt="Luciano"/>
                     </div>
-                    <div class="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
-                        <h3>UI/UX Designer &amp; Web Developer.</h3>
-                        <p class="fst-italic">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua.
+                    <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
+                        <h3>Full Stack Web Developer</h3>
+                        <p className="fst-italic">
+                            <strong>Philosophy Of Life: </strong>
+                            "Make improvements, not excuses. 
+                            Seek respect, not attention".
+                            Roy T. Bennett The Light in the Heart
                         </p>
-                        <div class="row">
-                        <div class="col-lg-6">
+                        <div className="row">
+                        <div className="col-lg-6">
                             <ul>
-                            <li><i class="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>1 May 1995</span></li>
-                            <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.example.com</span></li>
-                            <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 456 7890</span></li>
-                            <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>New York, USA</span></li>
+                            <li><i className="bi bi-chevron-right"></i> <strong>Birthday:</strong> <span>11 Feb 1990</span></li>
+                            <li><i className="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+54 9 336 468-0776</span></li>
+                            <li><i className="bi bi-chevron-right"></i> <strong>City:</strong> <span>San Nicolás, Argentina</span></li>
                             </ul>
                         </div>
-                        <div class="col-lg-6">
+                        <div className="col-lg-6">
                             <ul>
-                            <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>30</span></li>
-                            <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Master</span></li>
-                            <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>email@example.com</span></li>
-                            <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                            <li><i className="bi bi-chevron-right"></i> <strong>Age:</strong> <span>31</span></li>
+                            <li><i className="bi bi-chevron-right"></i> <strong>Email:</strong> <span>nunezluciano@hotmail.com</span></li>
+                            <li><i className="bi bi-chevron-right"></i> <strong>Works at:</strong> <span>Open to work</span></li>
                             </ul>
                         </div>
                         </div>
                         <p>
-                        Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
-                        Cupiditate ut dicta maxime officiis quidem quia. Sed et consectetur qui quia repellendus itaque neque. Aliquid amet quidem ut quaerat cupiditate. Ab et eum qui repellendus omnis culpa magni laudantium dolores.
+                            Adept at handling multiple tasks on a
+                            daily basis competently and at working
+                            well under pressure.
+                            Hardworking and motivated to learn
+                            new things. Currently polishing my
+                            knowledge in web development.
                         </p>
                     </div>
                 </div>
