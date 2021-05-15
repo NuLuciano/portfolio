@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://nuluciano.github.io/portfolio",
+  "homepage": "https://nuluciano.github.io/portfolio",
   "dependencies": {
     "@babel/core": "^7.14.0",
     "@popperjs/core": "^2.9.2",
