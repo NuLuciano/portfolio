@@ -2,6 +2,11 @@ import React, { useState } from 'react'
 import Lightbox from "react-awesome-lightbox";
 import "react-awesome-lightbox/build/style.css";
 import { SliderData } from './SliderData';
+import pokemonCard from '../assets/portfolio/pokemon-card.png'
+import weatherCard from '../assets/portfolio/weather-card.png'
+import eshopCard from '../assets/portfolio/eshop-card.png'
+import socialNetworkCard from '../assets/portfolio/social-network-card.png'
+
 
 const Portfolio = () => {
     const [ imgState, setImgState ] = useState({ isOpen: false, imgIndex: 0})
@@ -32,27 +37,36 @@ const Portfolio = () => {
 
                     <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                         <div className="portfolio-wrap">
-                            <img onClick={() => setImgState({isOpen: true, imgIndex: 0})} src="assets/img/portfolio/pokemon-card.png" className="img-fluid portImg" alt=""/>
+                            <img onClick={() => setImgState({isOpen: true, imgIndex: 0})} src={pokemonCard} className="img-fluid portImg" alt=""/>
                             <div className="portfolio-links">
-                                <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+                                <a href="https://adoring-cori-ee39c7.netlify.app/" title="More Details" target="_blank"><i className="bx bx-link"></i></a>
                             </div>
                         </div>
                     </div>
 
                     <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                         <div className="portfolio-wrap">
-                            <img onClick={() => setImgState({isOpen: true, imgIndex: 1})} src="assets/img/portfolio/weather-card.png" className="img-fluid portImg" alt=""/>
+                            <img onClick={() => setImgState({isOpen: true, imgIndex: 1})} src={weatherCard} className="img-fluid portImg" alt=""/>
                             <div className="portfolio-links">
-                                <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+                                <a href="https://stupefied-blackwell-30d389.netlify.app/" title="More Details" target="_blank"><i className="bx bx-link"></i></a>
                             </div>
                         </div>
                     </div>
 
                     <div className="col-lg-4 col-md-6 portfolio-item filter-web">
                         <div className="portfolio-wrap">
-                            <img onClick={() => setImgState({isOpen: true, imgIndex: 2})} src="assets/img/portfolio/eshop-card.png" className="img-fluid portImg" alt=""/>
+                            <a href="https://www.youtube.com/watch?v=wBUiUwZ0UwM&list=WL&index=31" target="_blank"><img src={eshopCard} className="img-fluid portImg" alt=""/></a>
                             <div className="portfolio-links">
-                                <a href="portfolio-details.html" title="More Details"><i className="bx bx-link"></i></a>
+                                <a href="https://ec-webft11-g10.vercel.app/" title="More Details" target="_blank"><i className="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div className="portfolio-wrap">
+                            <img onClick={() => setImgState({isOpen: true, imgIndex: 2})} src={socialNetworkCard} className="img-fluid portImg" alt=""/>
+                            <div className="portfolio-links">
+                                <a href="https://tender-payne-e05e4c.netlify.app/" title="More Details" target="_blank"><i className="bx bx-link"></i></a>
                             </div>
                         </div>
                     </div>

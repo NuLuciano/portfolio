@@ -1,14 +1,18 @@
+import pokemonApp from '../assets/portfolio/pokemon-app.png'
+import weatherApp from '../assets/portfolio/weather-app.png'
+import memoriesApp from '../assets/portfolio/memories-app.png'
+
 export const SliderData = [
     {
-        url:"assets/img/portfolio/pokemon-app.png",
+        url:pokemonApp,
         title:"Pokemon Pokedex"
     },
     {
-        url:"assets/img/portfolio/weather-app.png",
+        url:weatherApp,
         title:"Weather APP"
     },
     {
-        url:"assets/img/portfolio/yorlys-shop.png",
+        url:memoriesApp,
         title:"Ecommerce Shop"
     },
 ]

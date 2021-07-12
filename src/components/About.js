@@ -1,4 +1,5 @@
 import React from 'react'
+import avatar from '../assets/profile-img.jpg'
 
 const About = () => {
     return (
@@ -12,7 +13,7 @@ const About = () => {
 
                 <div className="row">
                     <div className="col-lg-4" data-aos="fade-right">
-                        <img src="assets/img/profile-img.jpg" className="img-fluid" alt="Luciano"/>
+                        <img src={avatar} className="img-fluid" alt="Luciano" style={{ borderRadius:'10px'}}/>
                     </div>
                     <div className="col-lg-8 pt-4 pt-lg-0 content" data-aos="fade-left">
                         <h3>Full Stack Web Developer</h3>
