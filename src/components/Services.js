@@ -6,7 +6,7 @@ const Services = () => {
             <div className="container">
 
                 <div className="section-title">
-                <h2>Technology Stack</h2>
+                    <h2>Technology Stack</h2>
                 </div>
 
                 <div className="row">
@@ -58,14 +58,14 @@ const Services = () => {
                         <div className="icon"><i className="devicon-github-plain"></i></div>
                         <h4 className="title"><a href="https://github.com/NuLuciano" target="_blank" rel="noopener noreferrer">Github</a></h4>
                     </div>
-                    <div className="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+                    {/* <div className="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
                         <div className="icon"><i className="devicon-python-plain"></i></div>
                         <h4 className="title"><a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">Python</a></h4>
                     </div>
                     <div className="col-lg-4 col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
                         <div className="icon"><i className="devicon-django-plain"></i></div>
                         <h4 className="title"><a href="https://www.djangoproject.com/" target="_blank" rel="noopener noreferrer">Django</a></h4>
-                    </div>
+                    </div> */}
                 </div>
 
             </div>
